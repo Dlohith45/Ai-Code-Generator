@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Code Generator</h1>
+
+        <textarea id="prompt" placeholder="Enter coding requirement..."></textarea>
+
+        <select id="language">
+            <option value="">Select Language</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+
+
+        
+        <button onclick="generateCode()">
+            
+            Generate Code
+        </button>
+
+        <h2>Generated Code</h2>
+
+        <pre id="output">
+Your code will appear here...
+        </pre>
+          <button onclick="copyCode()">Copy Code</button>
+        <button onclick="downloadCode()">Download Code</button>
+        <button onclick="clearFields()">Clear</button>
+
+
+      <center><footer>
+    <p>AI Code Generator | Internship Project</p>
+</footer></center>  
+
+    </div>
+  
+    <script src="script.js"></script>
+    
+
+
+</body>
+
+</html>
